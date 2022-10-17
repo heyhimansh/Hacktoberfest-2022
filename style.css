@@ -99,6 +99,10 @@ body {
     }
   }
   
+  .dropdown-menu a:active {
+    background-color: #ED5565;
+  }
+  
   @keyframes bubble-size {
     0%, 75% {
       width: var(--size, 4rem);
